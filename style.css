@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar*/
+header nav {
+    height: 48px;
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header nav ul {
+    
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+header nav ul img {
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
+}
+
+header nav ul li {
+    margin-top: 7px;
+    color: #f5f5f7;
+}
+
+
+
+
+/*Information*/
+section .priceInfo {
+    text-align: center;
+    color: white;
+    height: 55px;
+    background-color: #fbfbfd;
+}
+
+section .priceInfo p {
+    font-weight: 400;
+    color: #1d1d1f;
+    padding-top: 14px;
+}
+
+.priceInfo p a {
+    text-decoration: none;
+    color: #06c;
+}
+
+
+
+
+/*Section1*/
+.mainContent1 .heading {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.mainContent1 .heading h2 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.mainContent1 .heading h5 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.mainContent1 .heading p a {
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.mainContent1 .image img {
+    position:relative;
+    left:8%;
+   margin: 63px 0;
+}
+#section1{
+    margin-bottom: 80px;
+}
+
+
+
+/*section2*/
+#spanColor{
+    color: rgb(111, 19, 56);
+}
+.heading2 h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+.heading2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+ #section2 .heading2 p a{
+    text-align: center;
+    color:#06c;
+    position: relative;
+    left:48%;
+    text-decoration: none;
+}
+
+.ipadImage img{
+    padding-left: 515px;
+}
+.ipadImage{
+    background-color: #f4f3f3;
+}
+
+#section2{
+    margin-bottom: 80px;
+}
+
+
+
+/*section3*/
+div .background1{
+    background-color: #f4f3f3;
+}
+#section3 div .forImage img{
+    padding-left: 150px;
+    padding-top: 21px;
+}
+.background4 img{
+    position: relative;
+    left:500px;
+}
+.h-100 h4{
+    font-size: 50px;
+}
+div .forLogo h4 img{
+    width:50px;
+    height:50px;
+    padding-bottom: 8px;
+}
+div .forLogo p{
+    font-weight: 300;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+hr{
+    height:4px;
+}
+.background4 p{
+    font-size: 30px;
+    padding-left:10px;
+    font-weight: 300;
+}
+
+
+
+/*footer section*/
+.footerColor{
+    background-color: #000000;
+    margin-top: 0px;
+}
+.footerColor div{
+    color:#FAC213;
+}
+.footerColor div ul li a .footerWhite{
+    color:#FFFFFF;
+}
+
+
+/* making responsive*/
+@media (max-width:786px){
+    .mainContent1 .image img {
+      max-width: 600px;
+      max-height: 400px;
+    }
+    
+.ipadImage img{
+    padding-left: 150px;
+}
+#section3 .section3container{
+    display: flex;
+    flex-direction: column;
+}
+.background4 img{
+    position: static;
+    padding-left: 63px;
+}
+.background4 p{
+    text-align: center;
+}
+.footerColor{
+    padding-left: 130px;
+}
+header nav ul {
+    
+   gap:6px;
+}
+}
